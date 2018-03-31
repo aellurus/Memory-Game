@@ -177,6 +177,8 @@ function checkCard() {
 //Resets game.
 reset.addEventListener('click', resetGame);
 function resetGame() {
+  cardOne=null;
+  cardTwo=null;
   matchedCount = 0;
   moveCount = 0;
   clearTimeout(t);
